@@ -1,0 +1,59 @@
+.profile-ph {
+  width: 100%;
+}
+.profile-ph .m-loginTypes {
+  width: 100%;
+  text-align: center;
+}
+.profile-ph .m-loginTypes .logo {
+  padding-top: 2.13333rem;
+  padding-bottom: 1.6rem;
+  text-align: center;
+}
+.profile-ph .m-loginTypes .logo img {
+  width: 2.56rem;
+  height: 0.85333rem;
+}
+.profile-ph .m-loginTypes .question {
+  margin-top: 0.28rem;
+  width: 9.2rem;
+  font-size: 0.35rem;
+  color: #7f7f7f;
+}
+.profile-ph .m-loginTypes .question .ques-o {
+  float: left;
+  margin-left: 8%;
+}
+.profile-ph .m-loginTypes .question .ques-t {
+  float: right;
+  color: #333;
+}
+.profile-ph .login-all a button {
+  width: 90%;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border: 1px solid #b4282d;
+  border-radius: 2px;
+}
+.profile-ph .login-all a button span {
+  font-size: 0.37rem;
+  text-decoration: none;
+}
+.profile-ph .login-all .button-one {
+  color: #fff;
+  background: #b4282d;
+  text-align: center;
+  margin: 0.55rem 0 0.3rem;
+}
+.profile-ph .login-all .button-two {
+  color: #b4282d;
+  background: transparent;
+}
+.profile-ph .login-all a {
+  text-decoration: none;
+}
+.profile-ph .login-all a .quick {
+  text-align: center;
+  font-size: 0.37rem;
+  color: #333;
+}

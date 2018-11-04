@@ -1,0 +1,103 @@
+.foryou {
+  padding: 0 .4rem .53333rem;
+  margin-bottom: .26667rem;
+  background-color: #fff;
+  font-size: 24px;
+}
+.foryou .foryou-title {
+  background-color: #fff;
+  text-align: center;
+  font-size: .42667rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+.foryou .foryou-first {
+  display: block;
+  position: relative;
+  color: #333;
+  border: 1px solid #d9d9d9;
+  border-radius: .10667rem;
+  overflow: hidden;
+  margin-bottom: .4rem;
+}
+.foryou .foryou-first .pic-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 5.14667rem;
+  border-radius: .10667rem .10667rem 0 0;
+  overflow: hidden;
+}
+.foryou .foryou-first .pic-box .topic {
+  position: absolute;
+  top: .26667rem;
+  left: .26667rem;
+}
+.foryou .foryou-first .pic-box .topic .topic-text {
+  display: inline-block;
+  padding: 0 .21333rem;
+  height: .48rem;
+  line-height: .48rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #d9d9d9;
+  border-radius: .26667rem;
+  color: #333;
+  font-size: 24px;
+}
+.foryou .foryou-first .text-box {
+  overflow: hidden;
+  position: relative;
+  padding: .32rem .26667rem 0;
+  background-color: #fff;
+  padding-bottom: 0.8933333333333333rem;
+}
+.foryou .foryou-first .text-box .text-title {
+  margin-bottom: .25333rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  line-height: 1.2;
+}
+.foryou .foryou-first .text-box .text-title .title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: .4rem;
+  font-size: .48rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.foryou .foryou-first .text-box .text-title .price {
+  line-height: 1;
+  font-size: .42667rem;
+  text-align: center;
+  min-width: 1.53333rem;
+}
+.foryou .foryou-first .text-box .text-title .price .num {
+  font-size: .48rem;
+}
+.foryou .foryou-first .text-box .text-title .price .yuan {
+  font-size: .48rem;
+}
+.foryou .foryou-first .text-box .text2 {
+  position: relative;
+  font-size: .37333rem;
+  line-height: 1.2;
+  color: #7f7f7f;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

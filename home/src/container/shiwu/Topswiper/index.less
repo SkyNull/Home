@@ -1,0 +1,81 @@
+.top-swiper{
+    padding: .32rem 0;
+    width: 9.2rem;
+    margin: 1.17333rem auto auto auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    .swiper-container{
+        overflow:visible;
+        touch-action: none;
+        a{
+            padding: 0 .13333rem;
+            display: block;
+            box-sizing: border-box;
+            img{
+                width: 100%;
+                display: block;
+                height: 5.13333rem;
+                box-sizing: border-box;
+            }
+            .content{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                width: 6.21333rem;
+                height: 2.64rem;
+                background-color: rgba(255,255,255,.9);
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .sub-title{
+                    position: relative;
+                    font-size: .26667rem;
+                    color: #7f7f7f;
+                    line-height: .4rem;
+                    padding: 0 .10667rem;
+                    &::before{
+                        content: ' ';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        width: .32rem;
+                        height: 1px;
+                        background-color: #999;
+                        left: -.32rem;
+                    }
+                    &::after{
+                        content: ' ';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        width: .32rem;
+                        height: 1px;
+                        background-color: #999;
+                        right: -.32rem;
+                    }    
+
+                }
+                .title{
+                    font-size: .42667rem;
+                    line-height: .64rem;
+                    color: #333;
+                    margin-top: .21333rem;
+                    font-weight: 700;
+                }
+                .desc{
+                    font-size: .32rem;
+                    color: #333;
+                    line-height: .48rem;
+                    margin-top: .05333rem;
+                }
+            }
+        }
+    }
+   
+}

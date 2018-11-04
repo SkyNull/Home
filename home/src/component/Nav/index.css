@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.m-tabBar {
+  position: fixed;
+  width: 100%;
+  height: 1.49rem;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  background: #fafafa;
+}
+.m-tabBar a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.m-tabBar a.active {
+  color: red;
+}
+.m-tabBar a.active span {
+  color: red;
+}
+.m-tabBar a i {
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  font-size: .5rem;
+  margin-top: 0.18rem;
+}
+.m-tabBar a span {
+  display: block;
+  font-size: .35rem;
+  color: #666;
+  margin-top: .1rem;
+  font-weight: 600;
+}

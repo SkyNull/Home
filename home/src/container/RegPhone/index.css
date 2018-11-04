@@ -1,0 +1,94 @@
+.profile-ph {
+  width: 100%;
+}
+.profile-ph .m-loginTypes {
+  width: 100%;
+  text-align: center;
+}
+.profile-ph .m-loginTypes .logo {
+  padding-top: 2.13333rem;
+  padding-bottom: 1.6rem;
+  text-align: center;
+  font-size: 0.48rem;
+  color: #333;
+}
+.profile-ph .m-loginTypes .view {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.profile-ph .m-loginTypes .view input {
+  width: 8.6rem;
+  height: 0.6rem;
+  font-size: 0.35rem;
+  line-height: 0.6rem;
+  margin: 0.1rem 0;
+  padding-left: 0;
+  padding-bottom: 0.25rem;
+  border: 0;
+  color: #7f7f7f;
+  border-bottom: 1px solid #ccc;
+  -webkit-tap-highlight-color: transparent;
+  letter-spacing: 0.04rem;
+}
+.profile-ph .m-loginTypes .view .agreen {
+  width: 88%;
+  /*当input框为选中状态时，lable标签的样式，其中在css选择时，“：”表示当前input框的值，即checked；
+                该部分主要对显示的“对号”的大限居中方式，显示颜色进行了设置*/
+}
+.profile-ph .m-loginTypes .view .agreen #color-input-green + label {
+  display: block;
+  width: 0.45rem;
+  height: 0.45rem;
+  cursor: pointer;
+  position: absolute;
+  left: 6.5%;
+  bottom: 20%;
+  background: #fff;
+  border: 1px solid #666;
+}
+.profile-ph .m-loginTypes .view .agreen #color-input-green:checked + label::before {
+  display: block;
+  font-size: 0.3rem;
+  content: "\2714";
+  text-align: center;
+  color: green;
+}
+.profile-ph .m-loginTypes .view .agreen input[type="checkbox"] {
+  visibility: hidden;
+}
+.profile-ph .m-loginTypes .view .agreen p {
+  position: absolute;
+  left: 15%;
+  bottom: 21%;
+  font-size: .35rem;
+  color: #7f7f7f;
+}
+.profile-ph .m-loginTypes .view .agreen p a {
+  text-decoration: none;
+  color: #0fa7ee;
+}
+.profile-ph .login-all a button {
+  width: 88%;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border: 1px solid #b4282d;
+  border-radius: 2px;
+}
+.profile-ph .login-all a button span {
+  font-size: 0.37rem;
+  text-decoration: none;
+  opacity: 1;
+}
+.profile-ph .login-all .button-one {
+  color: #fff;
+  background: #b4282d;
+  text-align: center;
+  margin: 0.55rem 0 0.3rem;
+}
+.profile-ph .login-all .quick a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.37rem;
+  color: #333;
+}

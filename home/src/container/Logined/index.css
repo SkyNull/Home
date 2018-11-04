@@ -1,0 +1,71 @@
+.ucenter {
+  width: 100%;
+  background: #fff;
+}
+.ucenter .users {
+  width: 100%;
+  background: url("http://yanxuan.nosdn.127.net/d069279e5834bbca17065a9855a014bf.png") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  height: 3.6rem;
+  background-position: bottom center;
+  padding-left: .4rem;
+  box-sizing: border-box;
+}
+.ucenter .users .g-row {
+  overflow: hidden;
+}
+.ucenter .users .g-row .left {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11% 0;
+  box-sizing: border-box;
+}
+.ucenter .users .g-row .left img {
+  border-radius: 50%;
+}
+.ucenter .users .g-row .left .info {
+  margin-left: .4rem;
+  overflow: hidden;
+}
+.ucenter .users .g-row .left .info p {
+  color: #fff;
+  font-size: .42rem;
+}
+.ucenter .users .g-row .right {
+  float: right;
+  left: .9rem;
+  margin-top: 1.38667rem;
+  width: 2.70667rem;
+  background: #444;
+  border-top-left-radius: .85333rem;
+  border-bottom-left-radius: .85333rem;
+  overflow: hidden;
+  -webkit-animation: shake 1s linear 3;
+  animation: shake 1s linear 3;
+}
+.ucenter .users .g-row .right i {
+  font-size: 1rem;
+  color: #433;
+  position: relative;
+  left: .03rem;
+  top: 20%;
+}
+.ucenter .users .g-row .right .word {
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  color: #EDE7DB;
+  padding: 0 .2rem;
+}
+.ucenter .users .g-row .right .word .line {
+  font-size: .35rem;
+}
+.ucenter .users .g-row .right .word .line1 {
+  font-size: .3rem;
+}
+.ucenter .users .umiddle {
+  width: 100%;
+}

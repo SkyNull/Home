@@ -1,0 +1,92 @@
+.profile {
+  width: 100%;
+  background: #F2F5F4;
+}
+.profile .m-loginTypes {
+  width: 100%;
+  margin-top: 1.16rem;
+  text-align: center;
+  z-index: 666;
+}
+.profile .m-loginTypes .imgPro-box {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 3.57333rem;
+  height: 1.2rem;
+  padding-top: 2.13333rem;
+  padding-bottom: 2.13333rem;
+}
+.profile .m-loginTypes .imgPro-box img {
+  width: 100%;
+  height: 100%;
+}
+.profile .m-loginTypes .login-all a button {
+  width: 90%;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border: 1px solid #b4282d;
+  border-radius: 2px;
+}
+.profile .m-loginTypes .login-all a button i {
+  font-size: .53rem;
+  margin-right: .21rem;
+  position: relative;
+  top: .06rem;
+}
+.profile .m-loginTypes .login-all a button span {
+  font-size: .37rem;
+  text-decoration: none;
+}
+.profile .m-loginTypes .button-one {
+  color: #fff;
+  background: #b4282d;
+  text-align: center;
+  margin-bottom: .42rem;
+}
+.profile .m-loginTypes .button-two {
+  color: #b4282d;
+  background: transparent;
+}
+.profile a {
+  text-decoration: none;
+}
+.profile a .quick {
+  text-align: center;
+  font-size: .37rem;
+  color: #333;
+}
+.profile .threeWrap {
+  position: absolute;
+  width: 100%;
+  height: .53rem;
+  bottom: 2.5rem;
+  left: 0;
+  text-align: center;
+}
+.profile .threeWrap .itemwrap {
+  height: .53333rem;
+  border-right: 1px solid #979797;
+  display: inline-block;
+  text-align: center;
+  padding: 0 .53333rem;
+}
+.profile .threeWrap .itemwrap i {
+  font-size: .53rem;
+  color: #979797;
+  top: .13333rem;
+  display: inline-block;
+  position: relative;
+  top: -0.5rem;
+}
+.profile .threeWrap .itemwrap .info {
+  font-size: .37333rem;
+  line-height: .53333rem;
+  height: .53333rem;
+  color: #7F7F7F;
+  margin-left: .1rem;
+  position: relative;
+  top: -0.5rem;
+}

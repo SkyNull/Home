@@ -1,0 +1,27 @@
+.buttom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.29333333rem;
+  background: #fafafa;
+  border-top: 1px solid  #d5d5d5;
+  display: flex;
+  text-align: center;
+}
+.buttom-nav a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 0.3rem;
+  color: #666;
+}
+.buttom-nav a i {
+  font-size: 0.45rem;
+  height: 0.53333333rem;
+}
+.buttom-nav a.active {
+  color: #b4282d;
+}

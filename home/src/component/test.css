@@ -1,0 +1,15 @@
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-container .swiper-wrapper {
+  font-size: .37333rem;
+  width: 10rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  font-size: .37333rem;
+  height: 1.33333333rem;
+  width: 2.66666667rem;
+  margin: 0 !important;
+  padding: 0 0.4rem;
+}
